@@ -1,0 +1,744 @@
+@import './variables.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {}
+
+.head {
+    background-image: url(./img/coffee_image.png);
+    background-size: cover;
+
+    .countain-head {
+        max-width: 1366px;
+        margin: auto;
+
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 34px;
+
+        .home {
+            font: 400 35px Clicker Script;
+            line-height: 46.23px;
+            color: $PrimarycolorText;
+
+        }
+
+        .links {
+            display: flex;
+            gap: 60px;
+            align-items: center;
+            font: 500 14px Playfair Display;
+            line-height: 18.66px;
+            color: $PrimarycolorText;
+
+        }
+
+        & .links p:hover {
+            text-decoration: underline;
+        }
+
+        .butt {
+            display: flex;
+            align-items: center;
+            gap: 35px;
+
+            .in {
+                width: 100px;
+                height: 48px;
+                border-radius: 24px;
+                background: none;
+                text-decoration: underline;
+                border: 0;
+                color: $PrimarycolorText;
+                font: 500 14px Playfair Display;
+                line-height: 18.66px;
+            }
+
+            .up {
+                width: 100px;
+                height: 48px;
+                border-radius: 24px;
+                background: $ButtonPrimary;
+                font: 500 14px Playfair Display;
+                line-height: 18.66px;
+            }
+
+            & .up:hover {
+                background-color: #FFEED8;
+            }
+
+            & .in:hover {
+                background: #FFEED8;
+                color: black;
+            }
+        }
+
+
+    }
+
+    .prew {
+        max-width: 527px;
+        padding-top: 116px;
+        padding-bottom: 95px;
+
+        .slogan {
+            font: 500 22px Playfair Display;
+            line-height: 29.33px;
+            text-align: left;
+            color: $PrimarycolorText;
+        }
+
+        .big-text {
+            font: 400 220px Clicker Script;
+            line-height: 290.58px;
+            text-align: left;
+            color: $PrimarycolorText;
+        }
+
+        .about {
+            font: 400 20px Playfair Display;
+            line-height: 34px;
+            text-align: left;
+            color: $PrimarycolorText;
+            padding-bottom: 20px;
+        }
+
+        button {
+            width: 134px;
+            height: 48px;
+            border-radius: 24px;
+            background: $ButtonPrimary;
+            font: 700 16px Playfair Display;
+            line-height: 21.33px;
+            color: $BUttonTextcolor;
+            border: 0;
+
+        }
+
+        & button:hover {
+            background-color: #FFEED8;
+        }
+    }
+
+}
+
+main {
+    .discover {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 75px;
+        padding: 82px 0;
+
+        .left-arrow {
+            max-width: 585px;
+
+
+            h1 {
+                font: 700 54px Playfair Display;
+                line-height: 71.98px;
+                text-align: left;
+                color: $TertiarycolorText;
+
+            }
+
+            p {
+                font: 400 20px Playfair Display;
+                line-height: 34px;
+                text-align: left;
+                color: $SecondarycolorText;
+                padding: 29px 0;
+            }
+
+            button {
+                width: 134px;
+                height: 48px;
+                border-radius: 24px;
+                background: $ButtonPrimary;
+                font: 700 16px Playfair Display;
+                line-height: 21.33px;
+                color: $BUttonTextcolor;
+                border: 0;
+            }
+
+            & button:hover {
+                background-color: #FFEED8;
+            }
+        }
+
+    }
+
+    .asorti {
+        text-align: center;
+
+
+        h1 {
+            font: 700 54px Playfair Display;
+            line-height: 18.66px;
+            color: $TertiarycolorText;
+            padding-bottom: 50px;
+        }
+
+        p {
+            font: 400 20px Playfair Display;
+            line-height: 34px;
+            color: $SecondarycolorText;
+        }
+
+        .coffee {
+            max-width: 1180px;
+            margin: auto;
+            gap: 20px;
+            padding-top: 32px;
+            display: flex;
+
+            .cappucino {
+                max-width: 280px;
+                background: #FFF9F1;
+                border: 1px solid #F9C06A6B;
+                max-width: 280px;
+                height: 364px;
+
+                h2 {
+                    font: 700 22px Playfair Display;
+                    line-height: 29.33px;
+                    text-align: center;
+                    color: $TertiarycolorText;
+                    padding-top: 14px;
+                }
+
+                p {
+                    font: 400 16px Playfair Display;
+                    line-height: 21.33px;
+                    text-align: center;
+                    padding-top: 6px;
+                }
+
+                .price {
+                    font: 700 18px Playfair Display;
+                    line-height: 23.99px;
+                    text-align: center;
+                    padding-bottom: 18px;
+
+                }
+
+                button {
+                    width: 134px;
+                    height: 48px;
+                    border-radius: 24px;
+                    background: $ButtonPrimary;
+                    color: $BUttonTextcolor;
+                    font: 700 16px Playfair Display;
+                    line-height: 21.33px;
+                    border: 0;
+
+
+                }
+
+
+            }
+
+            .chai-latte {
+                max-width: 280px;
+                background: #FFF9F1;
+                border: 1px solid #F9C06A6B;
+                max-width: 280px;
+                height: 364px;
+
+                h2 {
+                    font: 700 22px Playfair Display;
+                    line-height: 29.33px;
+                    text-align: center;
+                    color: $TertiarycolorText;
+                    padding-top: 14px;
+                }
+
+                p {
+                    font: 400 16px Playfair Display;
+                    line-height: 21.33px;
+                    text-align: center;
+                    padding-top: 6px;
+                }
+
+                .price {
+                    font: 700 18px Playfair Display;
+                    line-height: 23.99px;
+                    text-align: center;
+                    padding-bottom: 18px;
+
+                }
+
+                button {
+                    width: 134px;
+                    height: 48px;
+                    border-radius: 24px;
+                    background: $ButtonPrimary;
+                    color: $BUttonTextcolor;
+                    font: 700 16px Playfair Display;
+                    line-height: 21.33px;
+                    border: 0;
+
+
+                }
+
+
+            }
+
+            .macchiato {
+                max-width: 280px;
+                background: #FFF9F1;
+                border: 1px solid #F9C06A6B;
+                max-width: 280px;
+                height: 364px;
+
+                h2 {
+                    font: 700 22px Playfair Display;
+                    line-height: 29.33px;
+                    text-align: center;
+                    color: $TertiarycolorText;
+                    padding-top: 14px;
+                }
+
+                p {
+                    font: 400 16px Playfair Display;
+                    line-height: 21.33px;
+                    text-align: center;
+                    padding-top: 6px;
+                }
+
+                .price {
+                    font: 700 18px Playfair Display;
+                    line-height: 23.99px;
+                    text-align: center;
+                    padding-bottom: 18px;
+
+                }
+
+                button {
+                    width: 134px;
+                    height: 48px;
+                    border-radius: 24px;
+                    background: $ButtonPrimary;
+                    color: $BUttonTextcolor;
+                    font: 700 16px Playfair Display;
+                    line-height: 21.33px;
+                    border: 0;
+
+
+                }
+
+
+            }
+
+            .expresso {
+                max-width: 280px;
+                background: #FFF9F1;
+                border: 1px solid #F9C06A6B;
+                max-width: 280px;
+                height: 364px;
+
+                h2 {
+                    font: 700 22px Playfair Display;
+                    line-height: 29.33px;
+                    text-align: center;
+                    color: $TertiarycolorText;
+                    padding-top: 14px;
+                }
+
+                p {
+                    font: 400 16px Playfair Display;
+                    line-height: 21.33px;
+                    text-align: center;
+                    padding-top: 6px;
+                }
+
+                .price {
+                    font: 700 18px Playfair Display;
+                    line-height: 23.99px;
+                    text-align: center;
+                    padding-bottom: 18px;
+
+                }
+
+                button {
+                    width: 134px;
+                    height: 48px;
+                    border-radius: 24px;
+                    background: $ButtonPrimary;
+                    color: $BUttonTextcolor;
+                    font: 700 16px Playfair Display;
+                    line-height: 21.33px;
+                    border: 0;
+
+
+                }
+
+
+
+            }
+
+            & button:hover {
+                background-color: #FFEED8;
+            }
+
+        }
+
+    }
+}
+
+.instruments {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+        font: 700 54px Playfair Display;
+        line-height: 71.98px;
+        text-align: center;
+        color: $TertiarycolorText;
+        margin-top: 82px;
+    }
+
+    .high {
+        font: 400 20px Playfair Display;
+        line-height: 34px;
+        text-align: center;
+        color: $SecondarycolorText;
+        padding-top: 16px;
+    }
+
+    .sect {
+        display: flex;
+        justify-content: center;
+        padding-top: 32px;
+        gap: 20px;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: #FFF9F1;
+            border: 1px solid #F9C06A6B;
+
+            img {
+                margin: 36px 95px 25px;
+            }
+
+            h3 {
+                font: 700 28px Playfair Display;
+                line-height: 37.32px;
+                color: $TertiarycolorText;
+            }
+
+            .sect-par {
+                font-family: 400 20px Playfair Display;
+                color: $SecondarycolorText;
+                text-align: center;
+                max-width: 170px;
+                margin-bottom: 36px;
+                margin-top: 8px;
+            }
+
+        }
+
+        & :hover {
+            background: #FFEED8;
+        }
+
+    }
+
+    .low {
+        font: 400 20px Playfair Display;
+        line-height: 34px;
+        text-align: center;
+        color: $SecondarycolorText;
+        padding-top: 32px;
+    }
+
+    h2 {
+        font: 700 30px Playfair Display;
+        line-height: 40px;
+        text-align: center;
+        color: $TertiarycolorText;
+        padding-top: 16px;
+    }
+
+    button {
+        width: 134px;
+        height: 48px;
+        border-radius: 24px;
+        background: $ButtonPrimary;
+        color: $BUttonTextcolor;
+        font: 700 16px Playfair Display;
+        line-height: 21.33px;
+        border: 0;
+        margin-top: 24px;
+    }
+
+    & button:hover {
+        background-color: #FFEED8;
+    }
+
+}
+
+.all-morning {
+    background-image: url(./img/Group\ 38.jpg);
+    background-size: cover;
+    margin-top: 82px;
+
+    .countain-morning {
+        max-width: 1366px;
+        margin: auto;
+
+        .content-morning {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 225px;
+            padding-top: 54px;
+
+            .left {
+                display: flex;
+                flex-direction: column;
+                gap: 22px;
+
+                h1 {
+                    font: 700 54px Playfair Display;
+                    line-height: 71.98px;
+                    text-align: left;
+                    color: $PrimarycolorText;
+                    max-width: 575px;
+                }
+
+                p {
+                    font: 400 20px Playfair Display;
+                    line-height: 34px;
+                    text-align: left;
+                    color: $PrimarycolorText;
+                    max-width: 409px;
+                }
+            }
+
+            button {
+                width: 134px;
+                height: 48px;
+                border-radius: 24px;
+                background: $ButtonPrimary;
+                color: $BUttonTextcolor;
+                font: 700 16px Playfair Display;
+                line-height: 21.33px;
+                border: 0;
+
+
+            }
+
+            & button:hover {
+                background-color: #FFEED8;
+            }
+
+        }
+    }
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 138px;
+
+    .headss {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 82px;
+        gap: 16px;
+
+        h1 {
+            font: 700 54px Playfair Display;
+            line-height: 71.98px;
+            color: $TertiarycolorText;
+        }
+
+        p {
+            font: 400 20px Playfair Display;
+            line-height: 34px;
+            color: $SecondarycolorText;
+        }
+    }
+
+    .comment {
+        background: #FFF9F1;
+        border: 1px solid #F9C06A6B;
+        max-width: 980px;
+        height: 524px;
+        margin-top: 45px;
+
+        h1 {
+            font: 700 220px Playfair Display;
+            line-height: 112px;
+            text-align: left;
+            color: $TertiarycolorText;
+            position: relative;
+            top: 54px;
+            left: 29px;
+        }
+
+        .center {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+
+            .left {
+                width: 82px;
+                height: 82px;
+                border-radius: 16px;
+                background: #F9C06A;
+                border: 0;
+                position: relative;
+                right: 40px;
+                top: 40px;
+            }
+
+            & .left:hover {
+                background: #FFEED8;
+            }
+
+            .text {
+                font: 600 18px Playfair Display;
+                line-height: 36px;
+                text-align: center;
+                color: $SecondarycolorText;
+                max-width: 780px;
+
+
+            }
+
+            .right {
+                width: 82px;
+                height: 82px;
+                border-radius: 16px;
+                background: #F9C06A;
+                border: 0;
+                position: relative;
+                left: 40px;
+                top: 40px;
+
+            }
+
+            & .right:hover {
+                background: #FFEED8;
+            }
+
+        }
+
+        h2 {
+            font: 700 32px Playfair Display;
+            line-height: 42.66px;
+            text-align: center;
+            padding-top: 28px;
+            color: $TertiarycolorText;
+        }
+
+        .prof {
+            font: 400 20px Playfair Display;
+            line-height: 34px;
+            text-align: center;
+            color: $SecondarycolorText;
+            padding-top: 4px;
+        }
+
+        .chel {
+            background-image: url(./img/chel.jpeg);
+            width: 112px;
+            height: 112px;
+            border-radius: 16px;
+            background-size: cover;
+            position: relative;
+            top: 45px;
+            left: 415px;
+        }
+
+    }
+
+}
+
+.coff {
+    background-image: url(./img/Group\ 38.jpg);
+    height: 347px;
+    background-size: cover;
+}
+
+footer {
+    background-image: url(./img/Group\ 62.jpg);
+    background-size: cover;
+
+    .footer-countain {
+        max-width: 1366px;
+        margin: auto;
+        padding-top: 162px;
+        padding-bottom: 80px;
+        display: flex;
+        gap: 66px;
+        justify-content: center;
+
+        .bean {
+            h1 {
+                font: 400 54px Clicker Script;
+                line-height: 71.32px;
+                color: $PrimarycolorText;
+                padding-bottom: 20px;
+            }
+
+            p {
+                font: 400 14px Playfair Display;
+                line-height: 22px;
+                color: $PrimarycolorText;
+                padding-bottom: 20px;
+                max-width: 380px;
+            }
+            
+
+            .icons {
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+            }
+            & .icons img:hover{
+               width: 50px;
+            }
+        }
+
+        .all {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            h1 {
+                font-family: 700 26px Playfair Display;
+                line-height: 34.66px;
+                color: $PrimarycolorText;
+                padding-bottom: 52px;
+            }
+
+            p {
+                font:400 18px Playfair Display;
+                line-height: 23.99px;
+                color: $PrimarycolorText;
+                max-width: 330px;
+
+            }
+            & p:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+
+}
